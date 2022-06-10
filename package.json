@@ -1,7 +1,12 @@
 {
+  "author": "TheDevCodingKen",
+  "description": "A very simple web server that will only respond to a basic request and log each request to the console (on the server-side)",
   "name": "hello-http-server",
+  "keywords": [
+    "Node.js",
+    "web server"
+],
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -10,7 +15,6 @@
     "test": "mocha test --exit",
     "start": "node index.js"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "axios": "^0.16.2",
